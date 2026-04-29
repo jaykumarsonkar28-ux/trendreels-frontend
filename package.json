@@ -1,0 +1,21 @@
+{
+  "name": "trendreels-frontend",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~49.0.0",
+    "expo-camera": "~13.4.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "socket.io-client": "^4.6.1",
+    "ffmpeg-kit-react-native": "^4.5.1",
+    "@react-native-async-storage/async-storage": "1.18.2"
+  }
+}
