@@ -1,45 +1,23 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-
-const resources = {
-  en: {
-    translation: {
-      "dashboard": "Creator Dashboard",
-      "monetization": "Monetization Active",
-      "withdraw": "Withdraw",
-      "record": "Record",
-      "typeMessage": "Type a message..."
-    }
+{
+  "name": "trendreels-frontend",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
   },
-  hi: {
-    translation: {
-      "dashboard": "क्रिएटर डैशबोर्ड",
-      "monetization": "मोनेटाइजेशन चालू है",
-      "withdraw": "पैसे निकालें",
-      "record": "रिकॉर्ड करें",
-      "typeMessage": "मैसेज लिखें..."
-    }
-  },
-  cg: {
-    translation: {
-      "dashboard": "क्रिएटर डैशबोर्ड",
-      "monetization": "मोनेटाइजेशन चालू हे",
-      "withdraw": "पइसा निकालव",
-      "record": "रिकॉर्ड करव",
-      "typeMessage": "मैसेज लिखव..."
-    }
+  "dependencies": {
+    "expo": "~49.0.0",
+    "expo-camera": "~13.4.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "socket.io-client": "^4.6.1",
+    "ffmpeg-kit-react-native": "^4.5.1",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "i18next": "^23.2.3",
+    "react-i18next": "^13.0.1"
   }
-};
-
-i18n
-  .use(initReactI18next)
-  .init({
-    resources,
-    lng: "en", // Default language
-    fallbackLng: "en",
-    interpolation: {
-      escapeValue: false
-    }
-  });
-
-export default i18n;
+}
