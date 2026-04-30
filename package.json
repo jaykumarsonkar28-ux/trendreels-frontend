@@ -16,6 +16,8 @@
     "@react-navigation/stack": "^6.0.0",
     "socket.io-client": "^4.6.1",
     "ffmpeg-kit-react-native": "^4.5.1",
-    "@react-native-async-storage/async-storage": "1.18.2"
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "i18next": "^23.2.3",
+    "react-i18next": "^13.0.1"
   }
 }
